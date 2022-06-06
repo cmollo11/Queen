@@ -1,17 +1,17 @@
 
 
-
-
 .display_none {
     display:none;
 }
 
 
+
+
 .titulo{
-  
-    padding: 10px 40px;
-    text-align:justify;
-    text-decoration: under;
+    
+    /* padding: 10px 40px; */
+    text-align:start;
+    text-decoration:underline;
     display: flex;
   
 }
@@ -19,11 +19,11 @@
 
 .titulo__cuerpo{
 
-    font-size:large;
-    padding: 5px 5px;
-    margin: 30px 30px;  
+    font-size:110%;
+    /* padding: 5px 5px; */
+    margin: 30px 0px;  
     line-height: 25px; 
-    text-align: left;
+    text-align:start;
     display: flex;
     
 }
@@ -46,8 +46,4 @@
     margin: 15px 15px ; 
     padding: 3px 3px;
 }
-
-
-
-
 
