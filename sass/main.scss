@@ -1,36 +1,11 @@
 
+@import "párrafos";
+@import "piePagina";
+
+
 .display_none {
     display:none;
 }
-
-
-.titulo {
-    text-align:start;
-    text-decoration:underline;
-    display: flex;
-    
-    &__cuerpo{
-        font-size:110%;
-        margin: 30px 0px;  
-        line-height: 25px; 
-        text-align:start;
-        display: flex;
-    }
-
-}
-
-
-.piePagina{
-    justify-content: space-between;
-    text-align: right;
-    padding: 20px 20px 20px 30px;
-    
-    &_icons{
-        transform: translate(10px, 20px)
-    }
-    
-}
-
 
 .ancla{
     font-size: 20px;
