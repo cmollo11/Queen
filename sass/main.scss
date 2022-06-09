@@ -9,7 +9,7 @@
     text-decoration:underline;
     display: flex;
     
-    .titulo__cuerpo{
+    &__cuerpo{
         font-size:110%;
         margin: 30px 0px;  
         line-height: 25px; 
@@ -25,7 +25,7 @@
     text-align: right;
     padding: 20px 20px 20px 30px;
     
-    .piePagina_icons{
+    &_icons{
         transform: translate(10px, 20px)
     }
     
