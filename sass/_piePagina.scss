@@ -1,11 +1,29 @@
 
-.piePagina{
+/* variable con mapa de colores */
+
+$footer-color: (
+    first-col: white,
+    second-col: black,
+    third-col: red
+
+);
+
+
+.settings{
     justify-content: space-between;
     text-align: right;
     padding: 20px 20px 20px 30px;
-    
-    
-    
+
+
+}
+
+/* aplico extend y map-get */
+
+.piePagina{
+   @extend .settings; 
+   background-color: map-get($footer-color, first-col);
+
+       
     &_icons{
         transform: translate(10px, 20px)
     }
