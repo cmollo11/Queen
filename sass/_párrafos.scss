@@ -1,3 +1,13 @@
+@mixin alignment {
+    font-size:110%;
+    margin: 30px 0px; 
+    line-height: 25px;
+    text-align:start;
+    display: flex;
+    
+    
+}
+
 
 .titulo {
     text-align:start;
@@ -5,12 +15,8 @@
     display: flex;
     
     &__cuerpo{
-        font-size:110%;
-        margin: 30px 0px;  
-        line-height: 25px; 
-        text-align:start;
-        display: flex;
-        
+        @include alignment;   
+              
     }
 
 }
