@@ -47,6 +47,8 @@
 
 .alineacion {
   text-align: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .formulario {
@@ -63,4 +65,5 @@
 
 .marginTop {
   margin-top: 65px;
+  overflow-x: hidden;
 }
