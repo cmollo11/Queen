@@ -4,8 +4,20 @@
     line-height: 25px;
     text-align:start;
     display: flex;
-    
-    
+}
+
+
+.h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 10px;
+}
+
+.h3{
+    @extend.h1;
+    padding-top: 0px;
+
 }
 
 

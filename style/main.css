@@ -1,3 +1,14 @@
+.h1, .h3 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding-top: 38px;
+  padding-bottom: 10px;
+}
+
+.h3 {
+  padding-top: 0px;
+}
+
 .titulo {
   text-align: start;
   text-decoration: underline;
@@ -36,8 +47,13 @@
           transform: translate(10px, 20px);
 }
 
-.display_none {
-  display: none;
+.marginTop {
+  margin-top: 65px;
+  overflow-x: hidden;
+}
+
+.box {
+  padding: 30px;
 }
 
 .ancla {
@@ -46,26 +62,10 @@
   padding: 3px 3px;
 }
 
-.alineacion {
-  text-align: center;
-  padding-top: 38px;
-  padding-bottom: 38px;
-  font-family: 'Cinzel', serif;
-}
-
 .formulario {
   text-align: center;
   font-size: large;
   padding: 5px 5px;
   margin: 30px 30px;
   line-height: 25px;
-}
-
-.marginTop {
-  margin-top: 65px;
-  overflow-x: hidden;
-}
-
-.box {
-  padding: 30px 30px 30px 30px;
 }

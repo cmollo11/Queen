@@ -1,24 +1,22 @@
 
-@import "párrafos";
+@import "text";
 @import "piePagina";
 
 
-.display_none {
-    display:none;
+.marginTop{
+    margin-top: 65px;
+    overflow-x: hidden;
 }
+
+.box{
+    padding: 30px;
+}
+
 
 .ancla{
     font-size: 20px;
     margin: 15px 15px ; 
     padding: 3px 3px;
-}
-
-.alineacion{
-   text-align: center;
-   padding-top: 38px;
-   padding-bottom: 38px;
-   font-family: 'Cinzel', serif;
-
 }
 
 .formulario{
@@ -27,15 +25,9 @@
     padding: 5px 5px;
     margin: 30px 30px; 
     line-height: 25px;   
-    
-    
+       
 }
 
-.marginTop{
-    margin-top: 65px;
-    overflow-x: hidden;
-}
 
-.box{
-    padding: 30px 30px 30px 30px;
-}
+
+
