@@ -13,6 +13,7 @@
     text-align:start;
     text-decoration:underline;
     display: flex;
+    font-family: 'Cinzel', serif;
     
     &__cuerpo{
         @include alignment;   

@@ -4,6 +4,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'Cinzel', serif;
 }
 
 .titulo__cuerpo {
@@ -49,6 +50,7 @@
   text-align: center;
   padding-top: 38px;
   padding-bottom: 38px;
+  font-family: 'Cinzel', serif;
 }
 
 .formulario {
@@ -61,6 +63,10 @@
 
 .discografia {
   margin-left: 50px;
+}
+
+.cardBox {
+  padding: 30px 30px 30px 30px;
 }
 
 .marginTop {
