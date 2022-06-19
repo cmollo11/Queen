@@ -47,7 +47,24 @@
           transform: translate(10px, 20px);
 }
 
-.marginTop {
+tr:hover {
+  background-color: purple;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.formulario {
+  font-size: 110%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.margins {
   margin-top: 65px;
   overflow-x: hidden;
 }
@@ -60,12 +77,4 @@
   font-size: 20px;
   margin: 15px 15px;
   padding: 3px 3px;
-}
-
-.formulario {
-  text-align: center;
-  font-size: large;
-  padding: 5px 5px;
-  margin: 30px 30px;
-  line-height: 25px;
 }

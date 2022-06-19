@@ -1,9 +1,10 @@
 
 @import "text";
 @import "piePagina";
+@import "form";
 
 
-.marginTop{
+.margins{
     margin-top: 65px;
     overflow-x: hidden;
 }
@@ -12,21 +13,19 @@
     padding: 30px;
 }
 
-
 .ancla{
     font-size: 20px;
     margin: 15px 15px ; 
     padding: 3px 3px;
 }
 
-.formulario{
-    text-align: center;
-    font-size:large;
-    padding: 5px 5px;
-    margin: 30px 30px; 
-    line-height: 25px;   
-       
-}
+
+
+
+
+
+
+
 
 
 
