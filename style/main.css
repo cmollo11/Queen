@@ -74,6 +74,17 @@ th, td {
   font-size: 110%;
 }
 
+.ancla {
+  font-size: 110%;
+  margin: 15px 15px;
+  padding: 10px 10px;
+  color: black;
+}
+
+.ancla:hover {
+  color: purple;
+}
+
 .margins {
   margin-top: 65px;
   overflow-x: hidden;
@@ -81,10 +92,4 @@ th, td {
 
 .box {
   padding: 30px;
-}
-
-.ancla {
-  font-size: 20px;
-  margin: 15px 15px;
-  padding: 3px 3px;
 }
