@@ -55,13 +55,23 @@ th, td {
   padding: 20px;
 }
 
-.formulario {
+.tablas {
   font-size: 110%;
   background-color: black;
   color: white;
   text-align: center;
   margin: auto;
   width: 100%;
+}
+
+.form {
+  text-align: center;
+}
+
+.formItem {
+  margin: 15px 15px;
+  padding: 3px 3px;
+  font-size: 110%;
 }
 
 .margins {
