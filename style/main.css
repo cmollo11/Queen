@@ -47,21 +47,63 @@
           transform: translate(10px, 20px);
 }
 
-tr:hover {
+.contenedorTabla {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0px;
+}
+
+.Tabla {
+  width: 100%;
+  border: 1px solid #cccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 20px;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 110%;
+}
+
+.Tabla tr {
+  background-color: black;
+  color: white;
+}
+
+.Tabla th, .Tabla td {
+  padding: 15px;
+  text-align: center;
+}
+
+.Tabla thead th {
+  text-transform: uppercase;
+  color: purple;
+}
+
+.Tabla tbody tr:hover {
+  background-color: #a829a8;
+}
+
+.Tabla tbody td:hover {
   background-color: purple;
 }
 
-th, td {
-  padding: 20px;
-}
-
-.tablas {
-  font-size: 110%;
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin: auto;
-  width: 100%;
+@media screen and (max-width: 600px) {
+  .Tabla {
+    border: 0px;
+  }
+  .Tabla thead {
+    display: none;
+  }
+  .Tabla tr {
+    display: block;
+    margin-bottom: 8px;
+    border-bottom: 4px solid #cccc;
+  }
+  .Tabla td {
+    display: block;
+    text-align: center;
+  }
 }
 
 .form {
