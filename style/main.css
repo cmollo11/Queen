@@ -47,6 +47,13 @@
           transform: translate(10px, 20px);
 }
 
+.piePaginaFreddie:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .contenedorTabla {
   width: 100%;
   max-width: 1000px;
@@ -103,16 +110,6 @@
     display: block;
     text-align: center;
   }
-}
-
-.form {
-  text-align: center;
-}
-
-.formItem {
-  margin: 15px 15px;
-  padding: 3px 3px;
-  font-size: 110%;
 }
 
 .ancla {
