@@ -64,7 +64,7 @@
                       </h2>
                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                           Somos la <strong> comunidad más grande del mundo </strong> de habla hispana que ama a Queen. Si vos también sos fan de mejor banda de todos los tiempos podés sumarte a nosotros. 
+                           Somos la <strong> comunidad más grande del mundo </strong> de habla hispana que ama a Queen. Si vos también sos fan de la mejor banda de todos los tiempos podés sumarte a nosotros. 
                         </div>
                       </div>
                     </div>
@@ -76,7 +76,7 @@
                       </h2>
                       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                          Para ser parte de esta comunidad solo debés completar el formulario que vas a encontrar debajo, enviarnos tus datos y contarnos que tan fan de Queen sos. También podés compartirnos alguna anécdota o historia personal que tengas con la banda.  
+                          Para ser parte de esta comunidad solo debés completar el formulario que vas a encontrar debajo, enviarnos tus datos y contarnos qué tan fan de Queen sos. También podés compartirnos alguna anécdota o historia personal que tengas con la banda.  
                         </div>
                       </div>
                     </div>
@@ -97,58 +97,122 @@
                 
             </div>
 
-            <div class="form">
+           
+            <div class="container">
+              <div class="row">
+                <div class="col"> 
 
-                
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    
-                    <h3 class="h1 fw-bold">Contactate con nosotros </h3> 
-                    
-                    <form action="enviar.php" method="get" enctype="text/plain">
-                        <div class="formItem">
-                            <label for="nombre" class="text-warning fw-bold">Nombre</label>
-                            <input type="text" id="nombre" placeholder="¿Cómo te llamás?">  
-                        </div>
-                        
-                        
-                        <div class="formItem">
-                            <label for="email" class="text-warning fw-bold">Email</label>
-                            <input type="email" id="email" placeholder="¿Cuál es tu email?" required>   
-                        </div>
-                        
-                        <!-- <div class="formItem"> -->
-                        <!--     <textarea  name="comentarios" id="comentarios" cols="47" rows="5"  --><!-- placeholder="¿Qué querés contarnos? ¡Podés adjuntar archivos!"></textarea> -->
-                        <!-- </div> -->
-                        
-                        
-                        <div class="formItem">
-                            <label for="adjunto" class="text-warning fw-bold">Adjuntar:</label>
-                            <input type="file">
-                            
-                        </div>
-                        
-                        
-                        <div class="formItem">
-                            <input type="reset" value="Borrar todo, me equivoqué">                     
-                        </div>                                   
-                       
-                        <div class="form-floating">
-                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                          <label for="floatingTextarea2">Comments</label>
-                        </div>
+                  <h3 class="h1 fw-bold">Contactate con nosotros </h3> 
 
-                        <div class="formItem">
-                          <input type="submit" value="Click para enviar">
-                        </div>
+                  
+                    <div class="p-3 mb-3">
                       
+                        <label for="nombre" class="form-label text-warning fw-bold">Nombre</label>
+                        <input id="nombre" class="form-control" placeholder="¿Cómo te llamás?">  
+                      
+                    </div>
+                    
+                    <div class=" p-3 mb-3">
+  
+                      <label for="emailInput" class="form-label text-warning fw-bold">Email</label>
+                      <input id="nombre" class="form-control" placeholder="¿Cual es tu email?">  
+                    
+                  </div>
+
+                  <div class=" p-3 mb-3">
+
+                    <label for="commentId" class="form-label text-warning fw-bold">Comentarios</label>
+                    <textarea class="form-control" id="commentId" placeholder="¿Qué querés contarnos?"></textarea>
+                    
+                  </div>
+                                
+                  <div class="p-3 mb-3">
+
+                    <label for="text" class="form-label text-warning fw-bold">Adjuntar archivos <em class="form-control-sm text-danger">*opcional </em></label>
+                    <input type="file" class="form-control">
+
+
+                  </div>
+
+                  <div class="p-3 mb-3">
+
+                    <label for="text" class="form-label text-warning fw-bold">País<em class="form-control-sm 
+                      text-danger">*opcional </em></label>
+                    <input class="form-control" list="lista" placeholder="¿De dónde sos?">
+                     <datalist id="lista">
+                      <option value="Argentina"></option>
+                      <option value="Brasil"></option>
+                      <option value="Bolivia"></option>
+                      <option value="Colombia"></option>
+                      <option value="Chile"></option>
+                      <option value="Ecuador"></option>
+                      <option value="Paraguay"></option>
+                      <option value="Perú"></option>
+                      <option value="Uruguay"></option>
+                      <option value="Venezuela"></option>
+                     </datalist>
 
 
 
-                    </form>
-                </div>
-                
+
+                  </div>
+
+
+
+
+                </div> 
+              </div>
             </div>
-            
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+
+           
+           
+           
+           
+
+
+
+           
+           
+           
+           
+           
 
         </div>
     </div>
